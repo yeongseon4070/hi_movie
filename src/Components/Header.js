@@ -24,6 +24,8 @@ const Item = styled.li`
   width: 80px;
   height: 50px;
   text-align: center;
+  font-size: 14px;
+  font-weight: bold;
 `;
 
 const SLink = styled(Link)`
@@ -44,12 +46,12 @@ const Header = () => {
                 </Item>
                 <Item>
                     <SLink to={"/tv"}>
-                        Tv
+                        TV
                     </SLink>
                 </Item>
                 <Item>
                     <SLink to={"/search"}>
-                       Searching
+                       Search
                     </SLink>
                 </Item>
             </List>

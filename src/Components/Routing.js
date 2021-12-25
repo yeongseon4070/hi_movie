@@ -1,6 +1,6 @@
 import React from 'react';
-import {BrowserRouter, Routes, Route, Navigate, Switch} from "react-router-dom";
-import { Movie, Err, Tv, Searching } from "../Pages"
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Movie, Tv, Searching } from "../Pages"
 import Header from "./Header";
 
 const Routing = () => {
